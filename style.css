@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,400;1,600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+    list-style: none;
+}
+.bg-primary {
+    background-color: #ffffff !important;
+    border-bottom: #dac8b2 solid 1px !important;
+}
+.jumbotron {
+    background-color: #dac8b2;
+}
+
+.jumbotron img {
+    margin: 30px 0 20px 0;
+    height: 37vh;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    margin-top: 2vh;
+    font-size: 35px;
+    font-weight: 600;
+    font-style: italic;
+    color: #222f2f;
+    letter-spacing: 4px;
+}
+#biodata {
+    margin-top: -45px;
+    background-color: #faebd7;
+}
+#biodata .bio h1{
+    padding-top: 50px;
+    font-weight: 500;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+#biodata .bio p {
+    letter-spacing: 5px;
+    margin-top: -12px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#profile table {
+    /* jgn lupa hapus ini  */
+    margin-top: 7vh;  
+    margin-bottom: 10vh;      
+}
+
+#profile table td {
+    padding-top: 5vh;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    border-bottom: #f0f8ff Solid 2px;
+}
+
+#profile img {
+    margin-top: 25px;
+    max-width: 77%;
+    height: auto;
+    margin-right: auto;
+}
+
+#profile h1 {
+    font-size: 35px;
+    padding: 30px 0px 10px 0px;
+    font-weight: bolder;
+}
+#riwayat-pelatihan p {
+    margin-left: 20px;
+}
+#riwayat-pendidikan .pendidikan img {
+    height: 35vh;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    margin-left: 29vh;
+}
+#riwayat-pendidikan .sekolah h1 {
+    font-size: 35px;
+    padding: 30px 0px 10px 0px;
+    font-weight: bolder;
+}
+#riwayat-pendidikan .sekolah span {
+    color: #bc8f8f;
+    letter-spacing: 2px;
+}
+
+#riwayat-pendidikan .sekolah .sklh {
+    font-style: italic;
+    color: black
+}
+
+#riwayat-pelatihan .pelatihan img {
+    height: 35vh;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    margin-left: 25vh;
+    position: relative;
+}
+
+#riwayat-pelatihan h1 {
+    font-size: 35px;
+    padding: 30px 0px 10px 0px;
+    font-weight: bolder;
+}
+
+/* jgn lupa ini dihapus */
+.fa-bullhorn, .fa-book-open, .fa-brain, .fa-building {
+    padding-top: 11px;
+    color: #bc8f8f;
+}
+
+#ketrampilan {
+    padding-bottom: 25px;
+    background-color: #faebd7;
+}
+
+#ketrampilan h1 {
+    font-size: 35px;
+    padding: 30px 0px 10px 0px;
+    font-weight: bolder;
+}
+.progress {
+    margin-bottom: 5vh;
+}
+.bg-primary-menyanyi {
+    background-color: #add8e6 !important;
+}
+.bg-primary-mengedit {
+    background-color: #90ee90 !important;
+}
+.bg-primary-menulis {
+    background-color: #ffb6c1 !important;
+}
+.bg-primary-menggambar {
+    background-color: #d3d3d3 !important;
+}
+footer {
+    padding: 30px 0;
+    position: relative;
+    text-align: center;
+}
+footer p {
+    margin-top: 2vh;
+    font-weight: 200;
+    font-style: italic;
+    color: #222f2f;
+    letter-spacing: 4px;
+}
+footer .quote {
+    font-weight: 300;
+    font-size: 20px;
+    margin: 10px 20px 0 20px;
+}
+footer .writter {
+    margin-top: -7px;
+    font-style: normal;
+    letter-spacing: normal;
+    margin-bottom: 40px;
+}
+footer .copy1 {
+    color: #bc8f8f;
+    font-weight: 600;
+    border-bottom: #bc8f8f;
+}
+
+/* Responsive */ 
+@media screen and (min-width : 769px) {
+    .jumbotron img {
+        margin: 35px 0 30px 0;
+        height: 52vh;
+    }
+    .jumbotron h1 {
+        margin-top: 5vh;
+        font-size: 40px;
+        font-weight: 700;
+        font-style: italic;
+        color: #222f2f;
+        letter-spacing: 4px;
+        margin-bottom: 2vh;
+    }
+    .jumbotron p {
+        font-size: 20px;
+        margin-right: 30px;
+        margin-left: 30px;
+        text-align: justify;
+    }
+    #biodata .bio p {
+        letter-spacing: 5px;
+        font-size: 20px;
+        margin-top: 5px;
+        font-weight: 400;
+        font-style: italic;
+    }
+    #profile table {
+        margin-top: -2vh;  
+        margin-bottom: 10vh;  
+    }
+    #profile table td {
+        padding-top: -5vh;
+        padding-right: 30px;
+        border-bottom: #f0f8ff Solid 2px;
+    }
+    #profile img {
+        margin-top: 25px;
+        max-width: 77%;
+        height: auto;
+        margin-right: auto;
+        margin-left: 2 auto;
+    }
+    #riwayat-pendidikan .sekolah h1 {
+        padding: 40px 0px 10px 0px;
+    }
+    #riwayat-pelatihan h1 {
+        padding: 50px 0px 10px 0px;
+    }
+    #riwayat-pendidikan .pendidikan img {
+        height: 26vh;
+        margin-top: 70%;
+        margin-left: -3vh;
+    }    
+    #riwayat-pelatihan .pelatihan img {
+        height: 26vh;
+        margin-top: 75%;
+        margin-left: -7vh;
+    } 
+    .fa-bullhorn, .fa-book-open, .fa-brain, .fa-building {
+    margin-top: -20px;
+    color: #bc8f8f;
+    }
+    #riwayat-pelatihan p {
+        margin-left: -20px;
+    }
+    #ketrampilan {
+        padding-bottom: 25px;
+    }
+    #ketrampilan h1 {
+        padding: 50px 0px 30px 0px;
+    }
+    footer .quote {
+        margin: 15px 30px 0 30px;
+    }
+    footer .copy1 {
+        color: #bc8f8f;
+        font-weight: 600;
+        border-bottom: #bc8f8f;
+        padding: 40px 0;
+    }
+}
+@media screen and (max-width : 768px) {
+    #riwayat-pendidikan .pendidikan img {
+        height: 20vh;
+        margin-top: 18vh;
+        margin-left: 3vh;
+    }    
+    #riwayat-pelatihan .pelatihan img {
+        height: 20vh;
+        height: 19vh;
+        margin-top: 17vh;
+        margin-left: 3vh;
+    } 
+}
+@media screen and (max-width : 426px) {
+    .jumbotron img {
+        margin: 52px 0 30px 0;
+        height: 42vh;
+    }
+    #riwayat-pendidikan .pendidikan img {
+        height: 38vh;
+        margin-top: 16vh;
+        margin-left: 16vh;
+        margin-bottom: -1vh;
+    }    
+    #riwayat-pelatihan .pelatihan img {
+        height: 38vh;
+        margin-top: 16vh;
+        margin-left: 16vh;
+        margin-bottom: -1vh;
+    }
+    #riwayat-pelatihan p {
+        margin-left: 20px;
+    }
+}
